@@ -23,18 +23,18 @@ Plan
 
 Pseudocode
 ---
-user inputs the letter options - c or f
-if "c"
-    call function to convert celsius to fahrenheit
-    return output value
-else if "f"
-    call function to convert fahrenheit to celsius
-    return output value
+<br>user inputs the letter options - c or f
+<br>if "c"
+<br>    call function to convert celsius to fahrenheit
+<br>    return output value
+<br>else if "f"
+<br>    call function to convert fahrenheit to celsius
+<br>    return output value
 
 function celsius to fahrenheit
-    return (celsius number * 1.8) + 32
+<br>    return (celsius number * 1.8) + 32
 
 function fahrenheit to celsius
-    return (fahrenheit number - 32) * 5 / 9
+<br>    return (fahrenheit number - 32) * 5 / 9
 
 Now we shall code!
