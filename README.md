@@ -25,16 +25,16 @@ Pseudocode
 ---
 <br>user inputs the letter options - c or f
 <br>if "c"
-<br>&nbsp;    call function to convert celsius to fahrenheit
-<br>&nbsp;    return output value
+<br>&emsp;    call function to convert celsius to fahrenheit
+<br>&emsp;    return output value
 <br>else if "f"
-<br>&nbsp;    call function to convert fahrenheit to celsius
-<br>&nbsp;    return output value
+<br>&emsp;    call function to convert fahrenheit to celsius
+<br>&emsp;    return output value
 
 function celsius to fahrenheit
-<br>&nbsp;    return (celsius number * 1.8) + 32
+<br>&emsp;    return (celsius number * 1.8) + 32
 
 function fahrenheit to celsius
-<br>&nbsp;    return (fahrenheit number - 32) * 5 / 9
+<br>&emsp;    return (fahrenheit number - 32) * 5 / 9
 
 Now we shall code!
