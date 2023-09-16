@@ -1,7 +1,9 @@
-Goal: Write a program that converts celsius temperatures to fahrenheit temperatures and vice versa.
+Goal
+---
+Write a program that converts celsius temperatures to fahrenheit temperatures and vice versa.
 
 Research
-----------
+---
 Source: https://www.almanac.com/temperature-conversion-celsius-fahrenheit
 
 Celsius to Fahrenheit
@@ -14,11 +16,13 @@ Fahrenheit to Celsius
 - The number 0.5556 is a rounded number to 4dp
 
 Plan
+---
 - user will choose the type of temperature to convert (celsius or fahrenheit)
 - user enter the number as input
 - output will be the conversion of the other temperature type equal to the input number of the chosen temperature type
 
 Pseudocode
+---
 user inputs the letter options - c or f
 if "c"
     call function to convert celsius to fahrenheit
@@ -30,7 +34,7 @@ else if "f"
 function celsius to fahrenheit
     return (celsius number * 1.8) + 32
 
-funciton fahrenheit to celsius
+function fahrenheit to celsius
     return (fahrenheit number - 32) * 5 / 9
 
 Now we shall code!
