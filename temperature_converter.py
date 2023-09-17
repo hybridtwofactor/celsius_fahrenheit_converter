@@ -1,6 +1,8 @@
+# convert celsius to fahrenheit function
 def celsius_to_fahrenheit(number):
     return (number * 1.8) + 32
 
+# convert fahrenheit to celsius function
 def fahrenheit_to_celsius(number):
     return (number - 32) * 5 / 9
 
