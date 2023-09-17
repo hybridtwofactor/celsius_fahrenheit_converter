@@ -25,6 +25,7 @@ Pseudocode
 ---
 <br>user inputs the letter options - c or f
 <br>if "c"
+<br>enter the number
 <br>&emsp;    call function to convert celsius to fahrenheit
 <br>&emsp;    return output value
 <br>else if "f"
