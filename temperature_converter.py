@@ -5,18 +5,36 @@ def celsius_to_fahrenheit(number):
 # function convert fahrenheit to celsius 
 def fahrenheit_to_celsius(number):
     return (number - 32) * 5 / 9
-    
-    
-# get user input of temperature type to convert to
+
+# function check if input is a float
+def is_float(string):
+    try:
+        float(string)
+        return True
+    except:
+        return False
+
+
+# get user input of temperature type to convert
 choice = input("Convert celsius [c] or fahrenheit [f]: ")
+while choice not in ["c", "f", "C", "F"]:
+    print("Invalid input. Please enter your option again.")
+    choice = input("Convert celsius [c] or fahrenheit [f]: ")
+
 # get user input of the temperature value
-number = int(input("Enter the number: "))
+number = input("Enter the number: ")
+while is_float(number) == False:
+    print("Invalid input. Please enter number again.")
+    number = input("Enter the number: ")
+number = float(number)
 
 # outputting the temperature conversion
-if choice == "c":
-    print("Fahrenheit:", celsius_to_fahrenheit(number), "degrees")
-elif choice == "f":
-    print("Celsius:", fahrenheit_to_celsius(number), "degrees")
+if choice == "c" or choice == "C":
+    print()
+    print("Result", celsius_to_fahrenheit(number), "degrees fahrenheit")
+elif choice == "f" or choice == "F":
+    print()
+    print("Result", fahrenheit_to_celsius(number), "degrees celsius")
 
 
 
